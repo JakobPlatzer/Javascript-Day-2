@@ -1,4 +1,4 @@
-// advanced exercise 1
+// intermediate exercise 1
 
 var sentence = "i am a web developer";
 
@@ -8,7 +8,7 @@ const capitalizedSentence = (function() {
 }())
 
 
-// advanced exercise 2
+// intermediate exercise 2
 
 function calculateGrades(Math, Physics, English) {
     let sum = Math+Physics+English;
