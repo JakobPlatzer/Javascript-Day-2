@@ -19,3 +19,11 @@ function randomFood() {
 }
 
 randomFood();
+
+// basic exercise 3
+
+function crystalGazer(number, where, who, what) {
+    return console.log(`You will be a ${what} in ${where} and married to ${who} with ${number} children.`)
+}
+
+crystalGazer(3, "Rome", "Lorenzo", "pizzabaker")
