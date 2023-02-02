@@ -1,11 +1,11 @@
 // intermediate exercise 1
 
-var sentence = "i am a web developer";
+// var sentence = "i am a web developer";
 
-const capitalizedSentence = (function() {
+const capitalizedSentence = (function(sentence) {
     let firstLetter = sentence.charAt(0);
     return console.log(firstLetter.toUpperCase() + sentence.slice(1));
-}())
+}("i am a web developer"))
 
 
 // intermediate exercise 2
