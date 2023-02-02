@@ -6,12 +6,8 @@ function minutesConverter(minutes) {
     return console.log(`${minutes} minutes = ${hours} hours and ${minutesRemain} minutes`);
 }
 
-// minutesConverter(200)
-// minutesConverter(560)
-// minutesConverter(73)
-// minutesConverter(20)
-// minutesConverter(37)
-// minutesConverter(8605)
+minutesConverter(200)
+
 
 // challenge
 
