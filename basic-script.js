@@ -27,3 +27,44 @@ function crystalGazer(number, where, who, what) {
 }
 
 crystalGazer(3, "Rome", "Lorenzo", "pizzabaker")
+
+// basic exercise 4
+
+// function ageCalculator(yearOfBirth, currentYear) {
+//     let age1 = currentYear - yearOfBirth;
+//     let age2 = currentYear - yearOfBirth - 1;
+//     return console.log(`You are either ${age1} or ${age2}`)
+// }
+
+// ageCalculator(1990,2023)
+
+// basic exercise 5
+
+function ageCalculatorImproved(yearOfBirth) {
+    let currentYear = new Date().getFullYear();
+    let age1 = currentYear - yearOfBirth;
+    let age2 = currentYear - yearOfBirth - 1;
+    return console.log(`You are either ${age1} or ${age2}`)
+}
+
+ageCalculatorImproved(1990)
+
+// basic exercise 6
+
+function degreesToRadians(degrees) {
+    let radians = degrees*(Math.PI/180);
+    return console.log(radians);
+}
+
+degreesToRadians(90)
+
+// basic exercise 7
+
+function calculateBox (width, height, depth) {
+    let area = width*height;
+    let volume = width*height*depth;
+    return console.log(`The area of the box is: ${area}. \nThe volume of the box is: ${volume}.`)
+}
+
+calculateBox(7,2,5)
+
